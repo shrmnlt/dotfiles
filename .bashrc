@@ -1,13 +1,14 @@
-# # add bash-completion if exists
-# if [ -f `brew --prefix`/etc/bash_completion ]; then
-#   source `brew --prefix`/etc/bash_completion
-# fi
+# source some useful stuff
+# source "$HOME/.dotfiles/system/.inputrc"
+
+# enable coloring
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 # source git-competion
-if [ -f "$HOME/.git-completion.bash" ]; then
-  source "$HOME/.git-completion.bash"
+if [ -f "$HOME/.dotfiles/.git-completion.bash" ]; then
+  source "$HOME/.dotfiles/.git-completion.bash"
 fi
-
 
 # nvm setup & load
 export NVM_DIR="$HOME/.nvm"
