@@ -1,8 +1,11 @@
 # brew essential tools
-# brew install curl git
+brew install curl git python
 
 # bootstrap dev apps
-# brew cask install atom
+brew cask install atom
+brew cask install transmission
+brew cask install virtualbox
+brew cask install atom
 
 # Install git-completion
 GIT_COMPLETION_URL="https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash"
