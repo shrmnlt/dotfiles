@@ -16,4 +16,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # PS1 prompt config
 PS1_OLD=${PS1}
-export PS1="\[\033[0;33m\]{ \W }\[\033[0m\]\n> "
+export PS1="\[\033[0;33m\]{ \W }\[\033[0m\]\n❯ "
