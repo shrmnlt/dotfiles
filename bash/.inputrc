@@ -1,0 +1,8 @@
+# Make Tab autocomplete regardless of filename case
+set completion-ignore-case on
+
+# UTF8
+set meta-flag on
+set input-meta on
+set output-meta on
+set convert-meta off
