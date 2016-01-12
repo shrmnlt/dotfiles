@@ -8,8 +8,4 @@ CCYAN="\[\033[0;36m\]"
 
 # PS1 prompt config
 PS1_OLD=${PS1}
-# PS1_USER="$BGreen\u$CRESET"
-PS1_USER="\u"
-PS1_LOCATION="$CCYAN\W$CRESET"
-PS1_GIT="$CYELLOW$(__git_ps1 '(git:%s)')$CRESET"
-export PS1="✪ $PS1_USER at $PS1_LOCATION $PS1_GIT > "
+export PS1="✪ \u at $CCYAN\W$CRESET$CYELLOW\$(__git_ps1 ' (git:%s)')$CRESET ~> "
