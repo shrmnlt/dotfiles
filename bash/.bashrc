@@ -21,3 +21,5 @@ source "$HOME/.dotfiles/common/.prompt"
 # nvm setup & load
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+export LC_ALL=en_US.UTF-8
