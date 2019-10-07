@@ -8,4 +8,4 @@ CCYAN="\[\033[0;36m\]"
 
 # PS1 prompt config
 PS1_OLD=${PS1}
-export PS1="$CRED{\t}$CRESET \u at $CCYAN\W$CRESET$CYELLOW\$(__git_ps1 ' (git:%s)')$CRESET ~> "
+export PS1="$CRED\t$CRESET $CCYAN\W$CRESET$CYELLOW\$(__git_ps1 ' (git:%s)')$CRESET > "
